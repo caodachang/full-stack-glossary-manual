@@ -1,0 +1,16 @@
+[project]
+name = "full-stack-glossary-manual"
+version = "0.1.0"
+description = "全栈名词学习笔记"
+requires-python = ">=3.12"
+
+dependencies = [
+    "jupyter",
+    "ipykernel",
+]
+
+[tool.uv]
+python-preference = "only-managed"
+
+[dependency-groups]
+dev = []
